@@ -124,20 +124,21 @@ class ZapModEngine {
 # 5. ACTIVATE
 [void] Activate() {
     $this.ShowBanner()
-    Write-Host "  [ INICIALIZANDO AMBIENTE ]`n" -ForegroundColor Cyan
+    Write-Host "  [ CARREGANDO COMPONENTES ]`n" -ForegroundColor Cyan
 
     @(
-        "⚡ Estabelecendo conexão segura...",
-        "🔐 Validando autenticação OAuth2...",
-        "📦 Carregando manifests das extensões...",
-        "🧩 Processando módulos CRX3...",
-        "🛠️ Aplicando recursos premium...",
-        "🚀 Publicando build otimizada...",
-        "🌐 Sincronizando distribuição global...",
-        "🧠 Integrando perfil do navegador...",
-        "✅ Verificando licenças PRO...",
-        "🔥 Liberando funcionalidades avançadas..."
+        "Inicializando ambiente seguro...",
+        "Autenticando credenciais...",
+        "Carregando extensões...",
+        "Otimizando componentes...",
+        "Aplicando módulos premium...",
+        "Sincronizando arquivos...",
+        "Preparando navegador...",
+        "Verificando integridade...",
+        "Ativando recursos PRO...",
+        "Tudo pronto 🚀"
     ) | ForEach-Object { $this.HackLine($_,"Green") }
+
 
 
         Write-Host ""
