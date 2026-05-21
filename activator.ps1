@@ -1,5 +1,5 @@
-# ZapMod Core Engine v4.0 - Clean Edition
-# Dev: @pugno_fc
+# ZAPV01C3 ACTIVATOR - Clean Edition
+# Dev: @ArsenalDigital
 # Class-based Architecture without problematic Unicode chars
 
 class ZapModEngine {
