@@ -1,5 +1,5 @@
-# ZAPV01C3 ACTIVATOR - Clean Edition
-# Dev: @ArsenalDigital
+# ZapMod Core Engine v4.0 - Clean Edition
+# Dev: @Arsenal Digital
 # Class-based Architecture without problematic Unicode chars
 
 class ZapModEngine {
@@ -109,7 +109,7 @@ class ZapModEngine {
         Write-Host "                    " -NoNewline; Write-Host "██║     ██║  ██║╚██████╔╝" -ForegroundColor Cyan
         Write-Host "                    " -NoNewline; Write-Host "╚═╝     ╚═╝  ╚═╝ ╚═════╝ " -ForegroundColor Cyan
         Write-Host "              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor Yellow
-        Write-Host "                 ZAPV01C3 ACTIVATOR- By Arsenal Digital" -ForegroundColor White
+        Write-Host "                 ZAPV01C3 CORE ENGINE EDITION   v4.0" -ForegroundColor White
         Write-Host "              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`n" -ForegroundColor Yellow
         Write-Host "  " -NoNewline
         Write-Host "DEV" -ForegroundColor DarkGreen -NoNewline
@@ -299,7 +299,7 @@ class ZapModEngine {
             if (-not $Silent) { 
                 Write-Host ""
                 Write-Host "  +==================================+" -ForegroundColor Yellow
-                Write-Host "  |  RESTAURADO COM SUCESSO         |" -ForegroundColor Yellow
+                Write-Host "  |  ZAPV01C3 RESTAURADO COM SUCESSO         |" -ForegroundColor Yellow
                 Write-Host "  +==================================+`n" -ForegroundColor Yellow
                 Read-Host "  Pressione ENTER para voltar ao menu"
             }
