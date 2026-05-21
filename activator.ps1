@@ -149,7 +149,7 @@ class ZapModEngine {
             $c = Get-Content $this.HostsPath
             foreach ($oldHost in $this.OldHosts) {
                 $c = $c | Where-Object { $_ -notmatch [regex]::Escape($oldHost) }
-                $c += "127.0.0.1 $oldHost # ZapMod Redirect"
+                $c += "127.0.0.1 $oldHost # acesse: https://arsenaldgt.store"
             }
             $c | Out-File $this.HostsPath -Encoding UTF8 -Force
             ipconfig /flushdns | Out-Null
