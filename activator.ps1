@@ -4,7 +4,7 @@
 
 class ZapModEngine {
     hidden [string]$Dev      = "Arsenal_Digital"
-    hidden [string]$WhatsApp = "+55 (61) 99603-7036"
+    hidden [string]$WhatsApp = "+55 (75) 98820-7859"
     hidden [string]$NewHost  = "zapmod.shop"
     hidden [string]$HostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
     hidden [System.Net.HttpListener]$Listener
