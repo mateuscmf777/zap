@@ -109,7 +109,7 @@ class ZapModEngine {
         Write-Host "                    " -NoNewline; Write-Host "██║     ██║  ██║╚██████╔╝" -ForegroundColor Cyan
         Write-Host "                    " -NoNewline; Write-Host "╚═╝     ╚═╝  ╚═╝ ╚═════╝ " -ForegroundColor Cyan
         Write-Host "              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor Yellow
-        Write-Host "                 CORE ENGINE EDITION   v4.0" -ForegroundColor White
+        Write-Host "                 ZAPV01C3 ACTIVATOR- By Arsenal Digital" -ForegroundColor White
         Write-Host "              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`n" -ForegroundColor Yellow
         Write-Host "  " -NoNewline
         Write-Host "DEV" -ForegroundColor DarkGreen -NoNewline
