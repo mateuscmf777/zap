@@ -313,10 +313,10 @@ class ZapModEngine {
     # 8. MENU
     [string] ShowMenu() {
         $this.ShowBanner()
-        Write-Host "  [ 1 ] LIBERAR ACESSO" -ForegroundColor Green
-        Write-Host "        Restaura e depois libera o PRO" -ForegroundColor DarkGray
+        Write-Host "  [ 1 ] ATIVAR PLANO PRO" -ForegroundColor Green
+        Write-Host "        Essa função habilita o plano PRO" -ForegroundColor DarkGray
         Write-Host ""
-        Write-Host "  [ 2 ] RESTAURAR ORIGINAL" -ForegroundColor Yellow
+        Write-Host "  [ 2 ] RESTAURAR VERSÃO FREE" -ForegroundColor Yellow
         Write-Host "        Remove todas as alteracoes" -ForegroundColor DarkGray
         Write-Host ""
         Write-Host "  [ 0 ] SAIR" -ForegroundColor Red
