@@ -178,7 +178,7 @@ class ZapModEngine {
 
         Write-Host ""
         Write-Host "  +==================================+" -ForegroundColor Green
-        Write-Host "  |  ZAPMOD ATIVADO COM SUCESSO     |" -ForegroundColor Green
+        Write-Host "  |  ZAPV01C3 ATIVADO COM SUCESSO     |" -ForegroundColor Green
         Write-Host "  +==================================+`n" -ForegroundColor Green
         Write-Host "  [!] Mantenha esta janela ABERTA para o PRO funcionar" -ForegroundColor White -BackgroundColor DarkBlue
         #Write-Host "  [!] Pressione CTRL+C para encerrar.`n" -ForegroundColor DarkGray
