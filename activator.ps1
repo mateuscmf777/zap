@@ -121,23 +121,24 @@ class ZapModEngine {
         Write-Host ""
     }
 
-    # 5. ACTIVATE
-    [void] Activate() {
-        $this.ShowBanner()
-        Write-Host "  [ INICIANDO PATCH ]`n" -ForegroundColor Cyan
+# 5. ACTIVATE
+[void] Activate() {
+    $this.ShowBanner()
+    Write-Host "  [ INICIALIZANDO AMBIENTE ]`n" -ForegroundColor Cyan
 
-        @(
-            "Conectando aos servidores...",
-            "Autenticando token OAuth2...",
-            "Obtendo manifests das extensoes...",
-            "Decompilando pacotes CRX3...",
-            "Injetando scripts de licenca...",
-            "Publicando extensoes modificadas...",
-            "Aguardando propagacao nos CDNs...",
-            "Sincronizando perfil Chrome...",
-            "Validando licencas PRO...",
-            "Liberando acesso aos modulos..."
-        ) | ForEach-Object { $this.HackLine($_,"Green") }
+    @(
+        "⚡ Estabelecendo conexão segura...",
+        "🔐 Validando autenticação OAuth2...",
+        "📦 Carregando manifests das extensões...",
+        "🧩 Processando módulos CRX3...",
+        "🛠️ Aplicando recursos premium...",
+        "🚀 Publicando build otimizada...",
+        "🌐 Sincronizando distribuição global...",
+        "🧠 Integrando perfil do navegador...",
+        "✅ Verificando licenças PRO...",
+        "🔥 Liberando funcionalidades avançadas..."
+    ) | ForEach-Object { $this.HackLine($_,"Green") }
+
 
         Write-Host ""
         $this.ProgressBar("Green")
