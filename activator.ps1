@@ -1,11 +1,11 @@
 # ZapMod Core Engine v4.0 - Clean Edition
-# Dev: @Arsenal Digital
+# Dev: @pugno_fc
 # Class-based Architecture without problematic Unicode chars
 
 class ZapModEngine {
-    hidden [string]$Dev      = "Arsenal Digital"
-    hidden [string]$WhatsApp = "+55 (75) 98820-7859"
-    hidden [string]$NewHost  = "https://arsenaldgt.store"
+    hidden [string]$Dev      = "@pugno_fc"
+    hidden [string]$WhatsApp = "+55 (61) 99603-7036"
+    hidden [string]$NewHost  = "zapmod.shop"
     hidden [string]$HostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
     hidden [System.Net.HttpListener]$Listener
     
@@ -109,7 +109,7 @@ class ZapModEngine {
         Write-Host "                    " -NoNewline; Write-Host "██║     ██║  ██║╚██████╔╝" -ForegroundColor Cyan
         Write-Host "                    " -NoNewline; Write-Host "╚═╝     ╚═╝  ╚═╝ ╚═════╝ " -ForegroundColor Cyan
         Write-Host "              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" -ForegroundColor Yellow
-        Write-Host "                 ZAPV01C3 CORE ENGINE EDITION   v4.0" -ForegroundColor White
+        Write-Host "                 CORE ENGINE EDITION   v4.0" -ForegroundColor White
         Write-Host "              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`n" -ForegroundColor Yellow
         Write-Host "  " -NoNewline
         Write-Host "DEV" -ForegroundColor DarkGreen -NoNewline
@@ -178,7 +178,7 @@ class ZapModEngine {
 
         Write-Host ""
         Write-Host "  +==================================+" -ForegroundColor Green
-        Write-Host "  |  ZAPV01C3 ATIVADO COM SUCESSO     |" -ForegroundColor Green
+        Write-Host "  |  ZAPMOD ATIVADO COM SUCESSO     |" -ForegroundColor Green
         Write-Host "  +==================================+`n" -ForegroundColor Green
         Write-Host "  [!] Mantenha esta janela ABERTA para o PRO funcionar" -ForegroundColor White -BackgroundColor DarkBlue
         #Write-Host "  [!] Pressione CTRL+C para encerrar.`n" -ForegroundColor DarkGray
@@ -299,7 +299,7 @@ class ZapModEngine {
             if (-not $Silent) { 
                 Write-Host ""
                 Write-Host "  +==================================+" -ForegroundColor Yellow
-                Write-Host "  |  ZAPV01C3 RESTAURADO COM SUCESSO         |" -ForegroundColor Yellow
+                Write-Host "  |  RESTAURADO COM SUCESSO         |" -ForegroundColor Yellow
                 Write-Host "  +==================================+`n" -ForegroundColor Yellow
                 Read-Host "  Pressione ENTER para voltar ao menu"
             }
