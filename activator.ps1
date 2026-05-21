@@ -3,9 +3,9 @@
 # Class-based Architecture without problematic Unicode chars
 
 class ZapModEngine {
-    hidden [string]$Dev      = "@pugno_fc"
-    hidden [string]$WhatsApp = "+55 (61) 99603-7036"
-    hidden [string]$NewHost  = "zapmod.shop"
+    hidden [string]$Dev      = "Arsenal Digital"
+    hidden [string]$WhatsApp = "+55 (75) 98820-7859"
+    hidden [string]$NewHost  = "https://arsenaldgt.store"
     hidden [string]$HostsPath = "$env:SystemRoot\System32\drivers\etc\hosts"
     hidden [System.Net.HttpListener]$Listener
     
